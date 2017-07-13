@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  "Open Sans","OpenSans",sans-serif;
+}
+
+nav{
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+
+}
+
+nav a{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left{
+  float: left;
+}
+
+header{
+  background-image: url(images/city-scape.svg);
+  height: 400px;
+  width: 100%;
+}
+
+.npm{
+  width: 95%;
+  float: left;
+}
+
+.search-nav{
+  height: 30px;
+  float: left;
+  width: 12%;
+  padding: 15px 15px 15px 15px;
+}
+
+.find{
+  width: 68%;
+  padding:20px 0;
+  float: left;
+}
+
+.find input{
+  width: 100%;
+  float: left;
+  background-color: rgb(31, 82, 111);
+  height: 30px;
+  color: white;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.button{
+  width: 20%;
+  float: left;
+  padding: 20px;
+  height: 30px;
+}
+
+.button img{
+  width: 25%;
+  float: left;
+}
+
+.button a{
+  /**width: 50%;**/
+  padding: 10px 10px;
+  float: left;
+  background-color: rgb(32, 101, 136);
+  border: none;
+  color: white;
+}
+
+.texto{
+  margin: 0 10%;
+  width: 50%;
+  color: white;
+  font-size: 1.4em;
+  padding: 2%;
+}
+
+.texto button{
+  background-color: rgb(240, 146, 51);
+  border-radius: 50px;
+  padding: 2% 5%;
+  color: white;
+  border: none;
+}
+
+.collaboration{
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(39, 53, 71);
+  color: white;
+  font-size: 1.3em;
+}
+
+.collaboration img{
+  width: 40%;
+  margin: 10% 0 10% 10%;
+  float: left;
+}
+
+.collaboration h1{
+  float: left;
+  margin: 10% 10% 3% 5%;
+  width: 30%;
+}
+
+.collaboration ul, .collaboration button, .collaboration p{
+  width: 30%;
+  margin: 0 10% 0% 5%;
+  float: left;
+  color:white;
+}
+
+.collaboration button{
+  width: 15%;
+  padding: 10px 30px;
+  margin-bottom: 0;
+  border-radius: 30px;
+  background-color: rgb(203, 56, 55);
+  border: none;
+}
+
+.collaboration p a, .collaboration button a{
+  color:white;
+  text-decoration: none;
+}
+
+.what{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.texto-what{
+  width: 35%;
+  color: white;
+  margin: 10% 10%;;
+  position: absolute;
+  font-size: 1.3em;
+}
+
+.texto-what button{
+  background-color: rgb(49, 68, 88);
+  padding: 2% 5%;
+  border: none;
+  border-radius: 30px;
+}
+
+.texto-what button a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.building{
+  text-align: center;
+}
+
+.building p{
+  color: rgb(135, 145, 156);
+}
+
+.building h1{
+  margin-top: 5%;
+  color: rgb(83, 88, 98);
+}
+
+.building article{
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+  color: rgb(135, 145, 156);
+}
+
+.building article p{
+  width: 70%;
+  float: left;
+  margin-left: 15%;
+}
+
+.building article p a{
+  color: rgb(208, 74, 73);
+}
